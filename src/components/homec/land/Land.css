@@ -1,0 +1,166 @@
+
+.dec-land{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-land{
+    font-family: 'Marhey', cursive;
+    
+}
+.text-land h1{
+    font-size: 60px;
+    color: var(--dark-blue);
+}
+@media (max-width: 768px) {
+    .text-land h1{
+        font-size: 40px;
+        
+    }
+}
+@media (max-width: 320px) {
+    .text-land h1{
+        font-size: 30px;
+        
+    }
+}
+.text-land h3{
+    font-size: 30px;
+    color: var(--dark-yellow);
+}
+@media (max-width: 768px) {
+    .text-land h3{
+        font-size: 20px;
+        
+    }
+}
+@media (max-width: 320px) {
+    .text-land h3{
+        font-size: 15px;
+        
+    }
+}
+.text-land p{
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .text-land p{
+        font-size: 13px;
+        
+    }
+}
+@media (max-width: 320px) {
+    .text-land p{
+        font-size: 11px;
+        
+    }
+}
+
+.img-land img{
+    height: 410px;
+    width: 460px;
+}
+@media (max-width: 768px) {
+    .img-land img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+}
+
+
+
+.butten-land{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    .butten-land{
+        padding: 15px;
+        
+    }
+}
+@media (max-width: 320px) {
+    .butten-land{
+        padding: 10px;
+        
+    }
+}
+
+.butten-land .fbtn-land{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: large;
+    height: 30px;
+    width: 165px;
+    background-color: var(--dark-yellow);
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+@media (max-width: 768px) {
+    .butten-land .fbtn-land{
+        width: 140px;
+        font-size: medium;
+    }
+}
+@media (max-width: 320px) {
+    .butten-land .fbtn-land{
+        width: 125px;
+        
+    }
+}
+
+
+
+.butten-land .sbtn-land{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: larger;
+    height: 30px;
+    width: 165px;
+    background-color: var(--dark-blue);
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+@media (max-width: 768px) {
+    .butten-land .sbtn-land{
+        width: 140px;
+        font-size: medium;
+    }
+}
+@media (max-width: 320px) {
+    .butten-land .sbtn-land{
+        width: 125px;
+        
+    }
+}
+
+/* spikes */
+.spikes {
+    position: relative;
+}
+.spikes::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 20px;
+    z-index: 2;
+    background-image: linear-gradient(135deg, #f3f3f3 25%, transparent 22%),linear-gradient(225deg, #f3f3f3 25%, transparent 22%);
+    background-size: 30px 30px;
+
+}

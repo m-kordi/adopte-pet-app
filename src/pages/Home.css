@@ -1,0 +1,12 @@
+
+.landing{
+    background-image: url("../assets/imgs/c.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.dd{
+    height: 100vh;
+    background-color: rgb(134, 134, 134);
+    padding: 30px;
+}
