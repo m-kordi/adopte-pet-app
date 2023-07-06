@@ -8,7 +8,8 @@
 
 .text-land{
     font-family: 'Marhey', cursive;
-    
+    transform: translateY(100px);
+    opacity: 0;
 }
 .text-land h1{
     font-size: 60px;
@@ -58,6 +59,10 @@
     }
 }
 
+.img-land{
+    transform: translateY(100px);
+    opacity: 0;
+}
 .img-land img{
     height: 410px;
     width: 460px;
@@ -164,3 +169,5 @@
     background-size: 30px 30px;
 
 }
+
+

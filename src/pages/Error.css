@@ -1,0 +1,38 @@
+.erorr-page{
+    height: 100vh;
+    background: linear-gradient(250deg, #f3f3f3, rgb(134, 134, 134));
+}
+.erorr-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.erorr-cont h1{
+    font-family: 'Blaka', cursive;
+    color: var(--dark-blue);
+    font-family: 'Katibeh', cursive;
+}
+
+
+@media (max-width: 768px) {
+    .erorr-cont img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .erorr-cont h1{
+        font-size: 25px;
+        
+    }
+}
+@media (max-width: 320px) {
+    .text-land h1{
+        font-size: 16px;
+        
+    }
+}

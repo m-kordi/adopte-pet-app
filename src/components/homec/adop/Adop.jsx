@@ -3,21 +3,42 @@ import "./Adop.css"
 import animals from "../../../data/animals.json"
 import { useState } from 'react';
 import {FcSearch} from "react-icons/fc"
+import { useRef } from "react";
+import { useInView } from "framer-motion";
+
 
 
 function Adop() {
+  /* filter */
   const [filtereData,setFiltereData]=useState(animals);
   const search = (e)=> setFiltereData(animals.filter((item)=>item.name.includes(e.target.value)));
+
+  /* in veiw */
+  const adoph = useRef(null);
+  const adophVeiw = useInView(adoph, { once: true });
+
+  const ser = useRef(null);
+  const serVeiw = useInView(ser, { once: true });
   return (
     <>
-    <div className='adop-title'>
-        <h1>إبحث عن حيوانك الأليف</h1>
+    <div ref={adoph} className='adop-title'>
+        <h1
+        style={{
+          transform: adophVeiw ? "none" : "translateX(200px)",
+          opacity: adophVeiw ? 1 : 0,
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+        }}>إبحث عن حيوانك الأليف</h1>
     </div>
 
     <div className='container'>
-      <div className='adop-list'>
+      <div ref={ser} className='adop-list'>
 
-        <div className='adop-search'>
+        <div  className='adop-search'
+        style={{
+          transform: adophVeiw ? "none" : "translateX(200px)",
+          opacity: adophVeiw ? 1 : 0,
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+        }}>
           <label htmlFor="search"><FcSearch className='sea-icon'/></label>
           <input id='search' type="search" placeholder='مثال: قطة' onChange={search}/>
         </div>

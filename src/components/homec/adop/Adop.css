@@ -12,6 +12,8 @@
     font-family: 'Katibeh', cursive;
     font-size: 40px;
     color:var(--dark-blue) ;
+    transform: translateY(100px);
+    opacity: 0;
 }
 @media (max-width: 768px) {
     .adop-title h1{
@@ -49,6 +51,8 @@
 .adop-search{
     display: flex;
     justify-content: center;
+    transform: translateY(100px);
+    opacity: 0;
 }
 
 
@@ -193,18 +197,7 @@
 }
 
 
-/* 
-variants={
-    {
-        hidden:{ opacity:0, y:75},
-        visible:{opacity:1, y:0},
-    }
-}
-intial="hidden"
-animate="visible"
-transition={{duration:0.5, delay:0.25}}
 
-*/
 
 
 

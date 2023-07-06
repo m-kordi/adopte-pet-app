@@ -16,8 +16,8 @@ function App() {
       {/* Routes */}
       <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='/advertis' element={<Advertis/>}/>
       <Route path='/adopte' element={<Adopte/>}/>
+      <Route path='/advertis' element={<Advertis/>}/>
       <Route path='/*' element={<Error/>}/>
       </Routes>
     </>
