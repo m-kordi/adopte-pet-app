@@ -38,7 +38,7 @@ function Land() {
           </div>
 
           <div className='img-land'>
-            <img src={dogimg} alt="img" />
+            <img loading='eager' src={dogimg} alt="img" />
           </div>
 
           

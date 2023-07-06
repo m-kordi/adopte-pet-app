@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import Land from '../components/homec/land/Land'
+import Adop from '../components/homec/adop/Adop'
 
 
 function Home() {
@@ -8,10 +9,12 @@ function Home() {
         <div className='home-page'>
 
           <div className='landing'>
-              <Land/>
+            <Land/>
           </div>
 
-          <div className='dd'>hello</div>
+          <div className='adopting'>
+            <Adop/>
+          </div>
         </div>
   )
 }
