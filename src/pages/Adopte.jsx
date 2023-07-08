@@ -1,8 +1,12 @@
 import React from 'react'
+import "./Adopte.css"
+import Apply from '../components/adoptec/apply/Apply'
 
 function Adopte() {
   return (
-    <h1>Adopte</h1>
+    <div className='form-apply'>
+      <Apply/>
+    </div>
   )
 }
 

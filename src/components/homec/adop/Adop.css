@@ -133,6 +133,7 @@
 	height: 250px;
 	overflow: hidden;
 	cursor: pointer;
+    box-shadow: 0 2px 15px rgb(255 255 255 / 70%);
 }
 
 @media (max-width: 320px) {
