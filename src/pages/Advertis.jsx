@@ -1,8 +1,12 @@
 import React from 'react'
+import "./Advertis.css"
+import Wawe from '../components/advertisc/wawe/Wawe'
 
 function Advertis() {
   return (
-    <h1>Advertis</h1>
+    <div className='adv-cont'>
+      <Wawe/>
+    </div>
   )
 }
 
