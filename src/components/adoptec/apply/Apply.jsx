@@ -13,7 +13,7 @@ function Apply() {
     /* in view */
     const inp = useRef(null);
     const inpVeiw = useInView(inp, { once: true });
-    /* email js: pw= momokoko123 */
+    /* email js: pw= momokoko123 /testo email */
     const form = useRef();
 
     const sendEmail = (e) => {

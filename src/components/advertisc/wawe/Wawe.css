@@ -176,4 +176,60 @@
 		color: rgb(0, 174, 255);
 	}
 }
+/* بوستر */
 
+.adv-poster{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.adv-poster img{
+    width: 700px ;
+    height: 900px;
+}
+@media (max-width: 768px) {
+    .adv-poster img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+}
+/* @media (max-width: 500px) {
+    .adv-poster img{
+        width: 320px;
+        height: 500px;
+        
+    }
+} */
+
+/* @media (max-width: 370px) {
+    .adv-poster img {
+        width: 300px;
+        height: 400px;
+		
+    }
+} */
+
+@media (max-width: 320px) {
+    .adv-poster img {
+        max-width: 100%;
+        height: auto;
+		
+    }
+}
+
+/* تحميل */
+
+.p-download button{
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--dark-yellow);
+}
+.p-download a{
+    color: var(--dark-blue);
+    font-size: 20px;
+}
