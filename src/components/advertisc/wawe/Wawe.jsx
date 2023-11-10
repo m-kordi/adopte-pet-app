@@ -36,7 +36,7 @@ function Wawe() {
                 <img loading='lazy' src={mtn} alt="img" />
                 <div className='adv-adr'>
                   <p className='adv-t'>بإمكانكم التبرع من خلال  كاش مبايل  على الرقم التالي:</p>
-                  <p className='adv-n'>0959124014</p>
+                  <p className='adv-n'>0941453431</p>
                   <a target='_blank' className='adv-a' href="https://cash.mtnsyr.com/#/">تبرع الان<HiCursorClick/></a>
                 </div>
               

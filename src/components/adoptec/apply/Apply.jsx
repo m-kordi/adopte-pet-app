@@ -64,7 +64,7 @@ function Apply() {
 }
 /* معرف الخاص */
 function handleid(e){
-    if(e.target.value>3700 || e.target.value<2000){
+    if(e.target.value>3027 || e.target.value<3000){
         e.target.style.color="red";
     } else{
         e.target.style.color="#04022c"
@@ -72,7 +72,7 @@ function handleid(e){
 }
 
 function dealid(e){
-if(e.target.value>3700 || e.target.value<2000){
+if(e.target.value>3027 || e.target.value<3000){
     e.target.value="";
     e.target.placeholder="المعرف غير موجود";
 }
