@@ -111,6 +111,7 @@
     border-radius: 30px;
     font-weight: bold;
     color: var(--dark-blue);
+    cursor: pointer;
 }
 @media (max-width: 768px) {
     .butten-land .fbtn-land{
@@ -140,6 +141,7 @@
     border-radius: 30px;
     font-weight: bold;
     color: #ffffff;
+    cursor: pointer;
 }
 @media (max-width: 768px) {
     .butten-land .sbtn-land{
